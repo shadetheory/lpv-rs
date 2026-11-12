@@ -1,4 +1,5 @@
 {
     "name": "acme/negated-bin",
-    "bin": ["bin/acme"]
+    "bin": ["bin/acme"],
+    "type": "project"
 }
