@@ -30,13 +30,13 @@ machine report.
 With a Rust toolchain (edition 2024, Rust 1.85 or newer):
 
 ```sh
-cargo install --git https://github.com/jordanpartridge/lpv-rs
+cargo install --git https://github.com/shadetheory/lpv-rs
 ```
 
 Or build from source:
 
 ```sh
-git clone https://github.com/jordanpartridge/lpv-rs
+git clone https://github.com/shadetheory/lpv-rs
 cd lpv-rs
 cargo build --release --locked
 ./target/release/lpv-rs --version
@@ -217,7 +217,7 @@ overrides: `LPV_REF` (default `lean-package-validator` on `PATH`), `LPV_RS`,
 `LPV_BENCH_RUNS`, `LPV_BENCH_WARMUP`, `LPV_BENCH_REPORT`. Reports replace local
 absolute paths with placeholders. The published reports were produced against
 13 public packages from
-[github.com/jordanpartridge](https://github.com/jordanpartridge).
+[github.com/shadetheory](https://github.com/shadetheory).
 
 ### Known differences
 
